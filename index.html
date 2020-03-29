@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Survey Form | Vibhor Thakral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        
+        <header>
+            <h1 id="title" class="text-center">FCC Survey Form</h1>
+            <p class="text-center" id="description">Survey Form for FCC Responsive Web Design Certification</p>
+        </header>
+
+        <form action="#" id="survey-form">
+
+            <div class="form-group">
+                <label for="name" id="name-label">Name:</label>
+                <input class="form-control" required type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label">Name:</label>
+                <input class="form-control" required type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="number" id="number-label">Name:</label>
+                <input class="form-control" type="number" name="age" id="number" min="1" max="100" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-group">
+                <p>Dropdown list</p>
+                <select id ="dropdown" class="form-control">
+                    <option value = "1">one</option>
+                    <option value = "2">two</option>
+                    <option value = "3">three</option>
+                    <option value = "4">four</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Radio Buttons</p>
+                <label>
+                    <input class="input-radio" type="radio" id="male" name="gender" value="male">
+                Radio 1</label>
+                <label>
+                    <input class="input-radio" type="radio" id="female" name="gender" value="female">
+                Radio 2</label>
+                <label>
+                    <input class="input-radio" type="radio" id="other" name="gender" value="other">
+                Radio 3</label>
+            </div>
+
+            <div class="form-group">
+                <p>Checkboxes</p>
+                <label>
+                    <input class="input-checkbox" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                Checkbox 1</label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                Checkbox 2</label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                Checkbox 3</label>
+            </div>
+
+            <div class="form-group">
+                <p>Write your message</p>
+                <textarea class="input-textarea" name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+
+
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
